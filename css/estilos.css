@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* CSS Document */
+
+
+
+#TituloPagina{
+	
+	margin: 0 auto;
+	color: #000000;
+	text-align: center;
+	font-size: 40px;
+	background-color: aqua;
+	margin-top: 4px;
+	padding: 50px;
+	
+}
+
+body
+{
+
+	text-align: left;
+	width: auto;
+}
+nav{
+	
+	margin-top: 12px;
+	height:80px;
+	margin-right: auto;
+}
+
+
+ul{
+	
+	list-style: none;
+}
+
+ul li a
+{
+	text-align: center;
+	background-color: #38F40A;
+	color: #000;
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	
+}
+
+ul li
+{
+	
+	float: left;
+	
+	width: 200px;
+	
+}
+
+ul li ul
+{
+	display: none;
+	position: absolute;
+	width: 5px;
+	
+}
+ul li:hover > ul 
+{
+	display: block;
+	
+}
+
+
+aside{
+	background-color: #5A3714;
+	float: left;
+	height: 600px;
+	margin-top: auto;
+	margin-left:auto;
+
+}
+
+section{
+	text-align: left;
+	margin-top: auto;
+	background-color: #1B01FC;
+	height: 600px;
+	margin-left: auto 10px;
+	margin-right: auto;
+	
+}
+
+footer
+{
+	text-align: center;
+	margin-top: 2px;
+	clear: both;
+	padding-left: center;
+	background-color: #FF00DD;
+	height: auto;
+}
+
+
+
