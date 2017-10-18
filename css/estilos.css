@@ -3,39 +3,95 @@
 	padding: 0;
 }
 /* CSS Document */
+/*contenedor general del titulo dela pagina*/
+#divheaderprincipal{
+	background-color:transparent;
+	padding: 50px;
+	
+	
+	overflow: hidden;
+	margin: auto;
+	
+}
+/*contenedor de logo unad */
+#divlogounad{
+	background-color: aliceblue;
+	padding: 50px;
+	width: 400px;
+	float: left;
+}
+
+img[src ="img/logoUNAD.png"]
+{
+	height: 100%;
+	width: 100%;
+}
 
 
 
+/*div titulo de la pagina*/
+#divheader{
+	
+	color: #000000;
+	text-align: center;
+	font-size: 30px;
+	background-color:#008FB3;
+	float: right;
+}
+
+
+
+
+
+
+
+/*
 #TituloPagina{
 	
 	margin: 0 auto;
 	color: #000000;
 	text-align: center;
 	font-size: 40px;
-	background: rgba(248,80,50,1);
-background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 27%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(231,56,39,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(27%, rgba(240,47,23,1)), color-stop(50%, rgba(241,111,92,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(100%, rgba(231,56,39,1)));
-background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 27%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(231,56,39,1) 100%);
-background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 27%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(231,56,39,1) 100%);
-background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 27%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(231,56,39,1) 100%);
-background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 27%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(231,56,39,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
-	margin-top: 4px;
-	padding: 50px;
+	background-color: darkblue;
+	margin-top: 0px;
+	padding: 50px 0px;
 	
 }
-
+*/
 body
 {
 
 	text-align: left;
 	width: auto;
+	
 }
+
+/*contenedor barra de navegacion*/
+#divnav{
+	padding: 5px 0;
+	width: 100%;
+	display: block;
+	clear: both;
+	margin-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#divnavinterno{
+	width: 1300px;
+	padding: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+
+
 nav{
 	
-	margin-top: 12px;
-	height:80px;
-	margin-right: auto;
+	margin-left: 150px;
 }
 
 
@@ -46,18 +102,15 @@ ul{
 
 ul li a
 {
+	
+	
+	
 	text-align: center;
-	background: rgba(241,231,103,1);
-background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
-background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+	background-color:#008FB3;
+	font-size: 20px;
 	color: #000;
 	display: block;
-	padding: 25px;
+	padding: 8px;
 	text-decoration: none;
 	
 }
@@ -66,7 +119,6 @@ ul li
 {
 	
 	float: left;
-	
 	width: 200px;
 	
 }
@@ -75,32 +127,46 @@ ul li ul
 {
 	display: none;
 	position: absolute;
-	width: 5px;
+	width: 10px;
+	
 	
 }
 ul li:hover > ul 
 {
-	display: block;
+	display:inline;
+	
+}
+
+/*contenedor principal aside y section*/
+#divaside{
+	
+	display:inherit;
+	clear: both;
+	
 	
 }
 
 
 aside{
-	background-color: #5A3714;
+	
+	background-color: #999999;
 	float: left;
 	height: 600px;
-	margin-top: auto;
+	
 	margin-left:auto;
+	display: block;
 
 }
 
 section{
+	
+	display: block;
 	text-align: left;
-	margin-top: auto;
-	background-color: #1B01FC;
+	background-color: #0033FF;
 	height: 600px;
-	margin-left: auto 10px;
-	margin-right: auto;
+	margin-top: auto;
+	
+	
 	
 }
 
@@ -110,9 +176,16 @@ footer
 	margin-top: 2px;
 	clear: both;
 	padding-left: center;
-	background-color: #FF00DD;
+	background-color: #808080;
 	height: auto;
 }
+
+article{
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+
 
 
 
