@@ -6,11 +6,12 @@
 /*contenedor general del titulo dela pagina*/
 #divheaderprincipal{
 	background-color:transparent;
-	padding: 50px;
+	padding: 10px;
 	
 	
 	overflow: hidden;
 	margin: auto;
+	
 	
 }
 /*contenedor de logo unad */
@@ -138,23 +139,30 @@ ul li:hover > ul
 }
 
 /*contenedor principal aside y section*/
-#divaside{
-	
-	display:inherit;
+#divasidesection{
+	background-color: transparent;
+	display:flex;
 	clear: both;
-	
+	margin-left: 20px;
+	padding-left: center;
 	
 }
+
+
+
 
 
 aside{
 	
 	background-color: #999999;
 	float: left;
-	height: 600px;
+	width: auto;
+	height:auto;
 	
 	margin-left:auto;
 	display: block;
+	padding-left: center;
+	
 
 }
 
@@ -163,26 +171,69 @@ section{
 	display: block;
 	text-align: left;
 	background-color: #0033FF;
-	height: 600px;
+	width: 1100px;
+	height: auto;
 	margin-top: auto;
+	padding-left: center;
+	
 	
 	
 	
 }
+
 
 footer
 {
 	text-align: center;
 	margin-top: 2px;
 	clear: both;
+	
 	padding-left: center;
 	background-color: #808080;
-	height: auto;
+	height: 100%;
+	width: 100%;
 }
 
-article{
-	margin-top: 10px;
-	margin-left: 300px;
+p{
+	font-size: 30px;
+	margin-left: 20px;
+	padding: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+
+
+#tabla1{
+	font-size: 20px;
+	text-align: left;
+	padding: 20px;
+	margin-left: 50px;
+	background-color: aliceblue;
+	
+}
+
+
+img[src="img/relacion_uno_uno_1_1.png"]
+{
+	display: block;
+	margin: auto;
+	
+}
+img[src="img/1_a_muchos_relacion.png"]
+{
+	height: 80%;
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+img[src="img/relacion_muchos_a_muchos.png"]
+{
+height: 80%;
+	width: 80%;
+	display: block;
+	margin: auto;
 }
 
 

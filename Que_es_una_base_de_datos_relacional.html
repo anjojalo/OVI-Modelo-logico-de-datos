@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <meta name ="viewport"  content= "width = device-width, user-scalable = no, initial-scale=1.0, maximum-sacale-1.0, minimum-scale=1.0">
-<title>Documento sin título</title>
+<title>Que es una base de datos relacional</title>
 
 
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -133,47 +133,52 @@
 	<section>
 	
 		<article>
-		<p>Para poder realizar un diagrama de entidad relación necesitamos comprender cuales son las distintas relaciones que existen y su cardinalidad.</p>
+		<p>En esta breve descripción hablaremos de que es una base de datos.
+
+Una base de datos es un sitio donde se puede almacenar mucha información, el nombre relacional esta dado a este tipo de base de datos por que la información contenida presenta una relación entre sus entidades.
+
+La información se guarda en tablas compuestas por columnas y filas, en cada columna se clasifica la información que es el tipo de dato que lo identifica, las filas serán cada registro de dato. En el siguiente ejemplo veremos cómo está constituida una tabla, en las columnas podemos ver los títulos (Identificación, Nombre y apellido) estos títulos representan los atributos dentro de la tabla, los datos ingresados están identificados por filas, cada fila representa un dato diferente en la tabla.
+</p>
 	
 	  </article>
+	  <table width="50%" border=3 id="tabla1">
+  <tbody>
+    <tr>
+      <td>Identificacion</td>
+      <td>Nombre</td>
+      <td>Apellido</td>
+    </tr>
+    <tr>
+      <td>156897131</td>
+      <td>Juan</td>
+      <td>Perez</td>
+    </tr>
+    <tr>
+      <td>568943751</td>
+      <td>Mario</td>
+      <td>Duarte</td>
+    </tr>
+    <tr>
+      <td>98561234</td>
+      <td>Carlos</td>
+      <td>Andrede</td>
+    </tr>
+    <tr>
+      <td>3485681</td>
+      <td>Pedro</td>
+      <td>Gomez</td>
+    </tr>
+  </tbody>
+</table>
+
 	
 		<article>
-		<p>Relación 1-1	</p>
+		<p>	las entidades se representan por las tablas en una base de datos.</p>
 	
 		</article>
 		
-		<article>
-			<p>Este tipo de se usa cuan dos entidades se relacionan con un solo elemento y su cardinalidad se representa 1-1. ejemplo:
-			1 ser humano solo puede tener 1 solo corazón.
-			</p>
-			<img src="img/relacion_uno_uno_1_1.png">
-			
-		</article>
 		
-		<article>
-			<p>
-				Relacion 1-N
-
-Este tipo de relación se usa cuando un elemento de una entidad puede ser asignado a varios elementos de la segunda entidad. Se representa 1-N. ejemplo. 
-
-			</p>
-			<img src="img/1_a_muchos_relacion.png">
-			
-		</article>
 		
-		<article>
-			<p>
-				1 edificio puede tener varios departamentos.
-
-				Relación N-N
-
-			Este tipo de relación se da en algunos casos, pero regularmente se finaliza creando una entidad intermedia, ya que este tipo de relación dentro de las bases de datos relacionales no puede quedar configurado con este tipo de cardinalidad.
-
-			</p>
-			
-			<img src="img/relacion_muchos_a_muchos.png">
-			
-		</article>
 		
 		
 		
