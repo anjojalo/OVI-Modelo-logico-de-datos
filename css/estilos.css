@@ -4,21 +4,30 @@
 }
 /* CSS Document */
 /*contenedor general del titulo dela pagina*/
+
+body
+{
+	height: auto;
+	width: auto;
+}
+
+
+
 #divheaderprincipal{
 	background-color:antiquewhite;
 	
-	padding: 10px;
+	padding: 80px;
 	
 	overflow: hidden;
 	margin: auto;
-	
+	width: auto;
 	
 }
 /*contenedor de logo unad */
 #divlogounad{
 	background-color: aliceblue;
 	padding: 50px;
-	width: 400px;
+	width: 300px;
 	float: left;
 }
 
@@ -35,7 +44,7 @@ img[src ="img/logoUNAD.png"]
 	
 	color: #000000;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 	background-color:#008FB3;
 	float: right;
 }
@@ -49,9 +58,11 @@ body
 }
 
 /*contenedor barra de navegacion*/
+
+
 #divnav{
 	padding: 5px 0;
-	width: absolute;
+	width: auto;
 	display: block;
 	clear: both;
 	margin-top: 1px;
@@ -62,12 +73,15 @@ body
 }
 
 
+
+
 #divnavinterno{
-	width: 1300px;
+	width: 1050px;
 	padding: 60px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color:#008FB3;
+	clear: both;
 	
 	
 	
@@ -76,7 +90,9 @@ body
 
 nav{
 	
-	margin-left: 150px;
+	margin-left: 300px;
+	width: auto;
+	height: auto;
 }
 
 
@@ -104,7 +120,7 @@ ul li
 {
 	
 	float: left;
-	width: 200px;
+	width: 150px;
 	
 }
 
@@ -129,6 +145,8 @@ ul li:hover > ul
 	clear: both;
 	margin-left: 20px;
 	padding-left: center;
+	width: absolute;
+	height: absolute;
 	
 }
 
@@ -140,25 +158,39 @@ aside{
 	
 	background-color: #999999;
 	float: left;
-	width: 600px;
-	height:100%;
+	width: 200px;
+	height:600px;
 	margin: auto;
 	margin-left:auto;
 	display: block;
 	padding-left: center;
-	
-
+	overflow-y: scroll;
 }
+
+
+
+
+
+
+#divsection{
+	
+	width: absolute;
+	height:absolute;
+	display:inline-block;
+	float: right;
+}
+
 
 section{
 	
 	display: block;
-	text-align: left;
+	text-align: right;
 	background-color: #0033FF;
 	width: absolute;
 	height: 100%;
 	margin-top: auto;
 	padding-left: center;
+	
 	
 	
 	
@@ -178,6 +210,12 @@ footer
 	width: 100%;
 }
 
+#divfooter
+{
+	width: auto;
+	height: auto;
+}
+
 p{
 	font-size: 30px;
 	margin-left: 10px;
@@ -186,6 +224,7 @@ p{
 	text-align: justify;
 	
 }
+
 
 
 
@@ -243,6 +282,23 @@ img[src="img/simbolo_uno_a_uno.png"]
 	margin: auto;
 }
 
+#articlecontador{
+	text-align: center;
+	height: 10%;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+#video1
+{
+	height: 50%;
+	width: 50%;
+	display: block;
+	
+}
+
+
 article1{
 	height: 50%;
 	width: 50%;
@@ -250,6 +306,7 @@ article1{
 	margin: auto;
 	
 }
+
 
 
 
