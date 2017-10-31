@@ -311,10 +311,21 @@ article1{
 	width: 50%;
 	display: block;
 	margin: auto;
-	
 }
 
 
+iframe[src="https://es.educaplay.com/es/recursoseducativos/3322805/html5/diagramaentidadrelacion.htm"]
+{
+	height: 700px;
+	width: 100%;
+	
+}
 
+#actividad1{
+	height: 90%;
+	width: 90%;
+	float: left;
+	
+}
 
 
