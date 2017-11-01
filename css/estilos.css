@@ -9,7 +9,7 @@ body
 {
 	margin:0 auto;
 	height: auto;
-	width: auto;
+	min-width: 800px;
 }
 
 
@@ -77,6 +77,7 @@ img[src ="img/logoUNAD.png"]
 	margin-right: auto;
 	background-color:#008FB3;
 	clear: both;
+	min-width: 700px
 	
 	
 	
@@ -103,7 +104,7 @@ ul li a
 	
 	text-align: center;
 	background-color:#008FB3;
-	font-size: 20px;
+	font-size: 15px;
 	color: #000;
 	display: block;
 	padding: 8px;
@@ -206,6 +207,7 @@ footer
 	text-align: center;
 	margin-top: 2px;
 	margin: auto;
+	padding: 20px;
 	
 	padding-left: center;
 	background-color: #808080;
@@ -319,6 +321,14 @@ iframe[src="https://es.educaplay.com/es/recursoseducativos/3322805/html5/diagram
 	height: 700px;
 	width: 100%;
 	
+}
+
+iframe[src="https://es.educaplay.com/es/recursoseducativos/3324262/html5/relacionar.htm"]
+{
+	height: 700px;
+	width: 100%;
+
+
 }
 
 #actividad1{
